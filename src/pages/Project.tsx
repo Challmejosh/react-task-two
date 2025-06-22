@@ -29,7 +29,7 @@ const Project = () => {
                     </div>
                 ))}
             </div>
-            <div className="flex items-center justify-start ">
+            <div className="mt-5 flex items-center justify-start ">
                 <BtnNav />
             </div>
         </div>

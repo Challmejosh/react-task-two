@@ -6,7 +6,7 @@ const FeaturedProject = ()=>{
             <div className="w-full flex flex-col gap-5 items-start justify-center ">
                 <h1 className="text-[62px] text-[#BDBDBD] capitalize " >our projects</h1>
                 <div className="w-full flex flex-col gap-4 items-center justify-center ">
-                    <div className="w-full grid md:grid-cols-2 gap-4 items-center justify-center ">
+                    <div className="w-full p-2 grid md:grid-cols-2 gap-3 items-center justify-center ">
                         <div className="w-full h-full relative bg-[#333] ">
                             <img src="first-featured.png" alt="" className="object-fill w-full h-[255px] " />
                             <div className="absolute w-full h-full p-[20px] flex flex-col items-start justify-center  bg-[#333] top-0 opacity-65 " />
