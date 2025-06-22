@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="">
         <Navigation />
-        <div className="p-3 min-h-dvh sm:p-8 py-10 xl:px-24 font-[roboto] ">
+        <div className="p-3 min-h-dvh sm:p-8 py-10 xl:pb-24 xl:px-24 font-[roboto] ">
           <Routes>
               <Route path="/" element={<Main />} />
               <Route path="/gallery" element={<Gallery />} />

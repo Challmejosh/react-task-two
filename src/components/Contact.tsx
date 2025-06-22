@@ -62,10 +62,10 @@ const Contact = () => {
         <h2 className="capitalize text-[#BDBDBD] text-[54px] font-[300] ">
           contact us
         </h2>
-      <div className="w-full flex flex-col lg:flex-row items-center justify-start lg:justify-between ">
+      <div className="w-full flex flex-col gap-2 lg:flex-row items-center justify-start lg:items-start lg:justify-start ">
             <form
             onSubmit={(e: React.FormEvent<HTMLFormElement>) => handleSubmit(e)}
-            className="w-full flex flex-col gap-4 items-center lg:items-start justify-center "
+            className="w-full lg:w-fit flex flex-col gap-4 items-center lg:items-start justify-center "
             >
             <Input
                 value={name}
@@ -107,7 +107,7 @@ const Contact = () => {
             color="black"
             />
             </form>
-            <img src="/contact-img.jpg" alt="" className= "hidden lg:block w-full h-[310px]  " />
+            <img src="/contact-img.jpg" alt="" className= "hidden lg:block w-full h-[395px]  " />
       </div>
       
     </div>
