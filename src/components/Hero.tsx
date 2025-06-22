@@ -9,15 +9,15 @@ const Hero = () => {
                     <p className="capitalize text-[#333333] font-[600] xl:leading-[54px] text-[54px] text-left font-[roboto] ">lorum</p>
                 </div>
                 <div className="w-full flex items-center justify-center ">
-                    <div className="flex items-center justify-center ">
-                        <div className="bg-white flex items-center justify-center text-left border border-[#ffffff] rounded-[1px] text-[#333] w-[53px] h-[53px] ">
+                    <div className="flex gap-2 items-center justify-center ">
+                        <div className="bg-white flex items-center justify-center text-left border border-[#F2F2F2] rounded-[1px] text-[#333] w-[53px] h-[53px] ">
                             <ArrowLeft />
                         </div>
-                        <div className="bg-[#f9f9f9] flex items-center justify-center text-left border border-[#ffffff] rounded-[1px] text-[#333] w-[53px] h-[53px] ">
+                        <div className="bg-[#f9f9f9] flex items-center justify-center text-left border border-[#F2F2F2] rounded-[1px] text-[#333] w-[53px] h-[53px] ">
                             <ArrowRight />
                         </div>
                     </div>
-                    <div className="bg-[#333333] w-full h-[1px] flex items-center justify-center "/>
+                    <div className="bg-[#F2F2F2] w-full h-[1px] flex items-center justify-center "/>
                 </div>
                 <div className="flex items-center justify-start">
                     <img src="/slide-numbers.svg" alt="" className="" />
@@ -28,7 +28,7 @@ const Hero = () => {
 
 
             <div className="md:col-span-3 relative w-full flex items-start justify-start  ">
-                <img src="/hero-image.jpg" alt="" className="w-full h-[329px] sm:h-[429px] md:h-[529px] xl:h-[629px] object-fill " />
+                <img src="/hero-image.jpg" alt="" className="w-full h-[329px] sm:h-[429px] md:h-[529px] xl:h-[729px] object-fill " />
                 <div className="absolute bottom-0 left-0 ">
                     <Btn 
                     text="view project"

@@ -4,12 +4,12 @@ import Pictures from "../components/Pictures";
 export const BtnNav = ()=>{
     return  <div className="flex items-center gap-2 justify-center ">
                     <img src="/slide-numbers.svg" alt="" className="" />
-                    <div className="bg-[#fcfcfc] cursor-pointer flex items-center justify-center text-left border border-[#ffffff] rounded-[1px] text-[#333] w-[53px] h-[53px] ">
-                            <ArrowLeft />
-                        </div>
-                        <div className="bg-[#f9f9f9] cursor-pointer flex items-center justify-center text-left border border-[#ffffff] rounded-[1px] text-[#333] w-[53px] h-[53px] ">
-                            <ArrowRight />
-                        </div>
+                    <div className="bg-[#fcfcfc] cursor-pointer flex items-center justify-center text-left border border-[#F2F2F2] rounded-[1px] text-[#333] w-[53px] h-[53px] ">
+                        <ArrowLeft />
+                    </div>
+                    <div className="bg-[#f9f9f9] cursor-pointer flex items-center justify-center text-left border border-[#F2F2F2] rounded-[1px] text-[#333] w-[53px] h-[53px] ">
+                        <ArrowRight />
+                    </div>
                 </div>
 }
 export const Title = ({first,second}:{first:string,second:string})=>{
@@ -30,7 +30,9 @@ const Gallery = () => {
             <Title first="photo" second="gallery" />
             <div className="bg-[#F2F2F2] w-full h-[1px] "/>
             <Pictures />
-            <BtnNav />
+            <div className="flex items-center justify-start w-full mt-5  ">
+                <BtnNav />
+            </div>
         </div>
      );
 }
